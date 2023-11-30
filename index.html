@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Epic Site</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <p class="h1">
+            Hello World! This is my website.
+        </p>
+
+        <p class="lead">
+            This will be my first website. I am hosting this on a raspberry pi.
+        </p>
+
+        <img src="/assets/banner.jpeg" class="img-fluid" alt="Banner">
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1"
+                   aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">
+                We'll never share your email with anyone else.
+            </small>
+
+
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control"
+                   id="exampleInputPassword1" placeholder="Password">
+        </div>
+
+        <button class="btn btn-primary btn-block" type="submit" id="submitbtn">
+            Login
+        </button>
+
+        <p class="text-muted">
+            What the user inputted will be here.
+
+            <span id="userinput"></span>
+        </p>
+
+<script src="/js/script.js"></script>
+</body>
+</html>
